@@ -1,49 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Batch1_DET_2022
-{
-    internal class empsal
-    {
-        int Id;
-        string name;
-        int pincode;
-        string address;
-        int phno;
-        float grosssal;
-        float pf;
+//namespace Batch1_DET_2022
+//{
+//    internal class empsal
+//    {
+//        int Id;
+//        string name;
+//        int pincode;
+//        string address;
+//        int phno;
+//        float grosssal;
+//        float pf;
 
-        public empsal(int Id, string name, int pincode, string address, int phno, float grosssal, float pf)
-        {
-            this.Id = Id;
-            this.name = name;
-            this.pincode = pincode;
-            this.address = address;
-            this.phno = phno;
-            this.grosssal = grosssal;
-            this.pf = pf;
+//        public empsal(int Id, string name, int pincode, string address, int phno, float grosssal, float pf)
+//        {
+//            this.Id = Id;
+//            this.name = name;
+//            this.pincode = pincode;
+//            this.address = address;
+//            this.phno = phno;
+//            this.grosssal = grosssal;
+//            this.pf = pf;
 
-        }
-        public float GetNetSal()
-        {
+//        }
+//        public float GetNetSal()
+//        {
 
-            return (grosssal - pf);
-        }
-        public char GetEmpGrade()
-        {
-            if (GetEmpGrade() > 10000)
-            {
-                return 'A';
-            }
-            else if (GetEmpGrade() > 5000)
-            {
-                return 'B';
-            }
-            else
-                return 'C';
-        }
-    }
-}
+//            return (grosssal - pf);
+//        }
+//        public char GetEmpGrade()
+//        {
+//            if (GetEmpGrade() > 10000)
+//            {
+//                return 'A';
+//            }
+//            else if (GetEmpGrade() > 5000)
+//            {
+//                return 'B';
+//            }
+//            else
+//                return 'C';
+//        }
+//    }
+//}
